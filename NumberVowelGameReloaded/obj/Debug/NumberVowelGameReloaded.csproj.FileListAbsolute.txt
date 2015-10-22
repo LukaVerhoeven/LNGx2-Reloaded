@@ -22,3 +22,6 @@ C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGa
 C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
 C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
 C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb

@@ -25,6 +25,7 @@ namespace NumberVowelGameReloaded
             Random rndom = new Random();
             int switchnbrlet = rndom.Next(2);
             Console.WriteLine("Order: " + switchnbrlet);
+            // YOLOLOLOL
 
             if (switchnbrlet == 0)
             {
