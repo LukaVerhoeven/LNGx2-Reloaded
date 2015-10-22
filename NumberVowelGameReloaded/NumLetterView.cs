@@ -13,12 +13,14 @@ namespace NumberVowelGameReloaded
     public partial class NumLetterView : UserControl
     {
         NumLetterController _controller;
+        NumLetterModel _model;
         static int timer = 0;
         Random random = new Random(timer++);
 
-        public NumLetterView(NumLetterController Controller)
+        public NumLetterView(NumLetterController Controller , NumLetterModel Model)
         {
             _controller = Controller;
+            _model = Model;
             InitializeComponent();
            
         }
@@ -33,12 +35,12 @@ namespace NumberVowelGameReloaded
             if (rndLabel == 0)
             {
                 label2.Text = "";
-                label1.Text = _controller.GenResult;
+                label1.Text = _model.Nummerletter;
             }
             else if(rndLabel == 1)
             {
                 label1.Text = "";
-                label2.Text = _controller.GenResult;
+                label2.Text = _model.Nummerletter;
             }
             else
             {
