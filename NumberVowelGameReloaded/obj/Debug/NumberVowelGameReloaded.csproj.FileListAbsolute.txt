@@ -19,3 +19,6 @@ C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGa
 C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
 C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
 C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
