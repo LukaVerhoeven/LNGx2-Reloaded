@@ -9,6 +9,10 @@ namespace NumberVowelGameReloaded
     public class ButtonController
     {
 
+        public void checkAnswer(string nummerLetter,string BovenOfOnder)
+        {
+            
+        }
 
     }
 }

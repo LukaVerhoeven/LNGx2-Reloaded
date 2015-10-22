@@ -36,12 +36,14 @@ namespace NumberVowelGameReloaded
             {
                 label2.Text = "";
                 label1.Text = _model.Nummerletter;
+                _model.BovenOfOnder = "";
                 _model.BovenOfOnder = "boven";
             }
             else if(rndLabel == 1)
             {
                 label1.Text = "";
                 label2.Text = _model.Nummerletter;
+                _model.BovenOfOnder = "";
                 _model.BovenOfOnder = "onder";
             }
             else
