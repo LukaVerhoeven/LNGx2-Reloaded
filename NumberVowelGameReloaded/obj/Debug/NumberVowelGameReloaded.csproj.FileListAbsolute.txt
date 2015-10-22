@@ -1,0 +1,21 @@
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.pdb
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csprojResolveAssemblyReference.cache
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Form1.resources
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
+c:\users\luka\documents\visual studio 2015\Projects\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.pdb
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Buttons.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Form1.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LetterNumberGame\NumberVowelGameReloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
