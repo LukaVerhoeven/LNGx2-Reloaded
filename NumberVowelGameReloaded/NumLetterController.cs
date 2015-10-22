@@ -27,6 +27,7 @@ namespace NumberVowelGameReloaded
             Console.WriteLine("Order: " + switchnbrlet);
             // YOLOLOLOL
 
+            //dsdsdsd kakdorl
             if (switchnbrlet == 0)
             {
                 Random rnd = new Random();
