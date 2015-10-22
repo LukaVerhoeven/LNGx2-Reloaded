@@ -13,12 +13,14 @@ namespace NumberVowelGameReloaded
     public partial class NumLetterView : UserControl
     {
         NumLetterController _controller;
+        NumLetterModel _model;
         static int timer = 0;
         Random random = new Random(timer++);
 
-        public NumLetterView(NumLetterController Controller)
+        public NumLetterView(NumLetterController Controller , NumLetterModel Model)
         {
             _controller = Controller;
+            _model = Model;
             InitializeComponent();
            
         }
@@ -27,18 +29,18 @@ namespace NumberVowelGameReloaded
         {
             
             int rndLabel = random.Next(2);
-            Console.WriteLine("Label: " + rndLabel);
+            label3.Text = rndLabel.ToString();
             _controller.GenereerNumLetter();
 
             if (rndLabel == 0)
             {
                 label2.Text = "";
-                label1.Text = _controller.GenResult;
+                label1.Text = _model.Nummerletter;
             }
             else if(rndLabel == 1)
             {
                 label1.Text = "";
-                label2.Text = _controller.GenResult;
+                label2.Text = _model.Nummerletter;
             }
             else
             {
@@ -51,12 +53,9 @@ namespace NumberVowelGameReloaded
         private void button1_Click(object sender, EventArgs e)
         {
             PutNumletterInLabel();
-            Console.WriteLine("---RUN COMPLETE---");
         }
 
-
-
-        private void NumLetterView_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

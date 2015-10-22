@@ -8,5 +8,21 @@ namespace NumberVowelGameReloaded
 {
     public class NumLetterModel
     {
+        string nummerletter;
+
+        public string Nummerletter
+        {
+            get
+            {
+                return nummerletter;
+            }
+            set
+            {
+                nummerletter = value;
+            }
+        }
+
+        
+
     }
 }

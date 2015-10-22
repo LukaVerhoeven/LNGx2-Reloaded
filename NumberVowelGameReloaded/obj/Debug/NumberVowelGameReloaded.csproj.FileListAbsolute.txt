@@ -25,11 +25,11 @@ C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGame
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.pdb
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csprojResolveAssemblyReference.cache
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Buttons.resources
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Form1.resources
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
-\\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Buttons.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Form1.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.pdb
