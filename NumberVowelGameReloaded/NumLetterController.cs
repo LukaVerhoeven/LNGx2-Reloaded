@@ -21,6 +21,10 @@ namespace NumberVowelGameReloaded
             _view = new NumLetterView(this, _model);
             
         }
+        public void VeranderLabel()
+        {
+            _view.PutNumletterInLabel();
+        }
 
         public void GenereerNumLetter()
         {

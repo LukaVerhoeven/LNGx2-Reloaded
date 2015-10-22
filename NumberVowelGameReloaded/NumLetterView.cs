@@ -56,7 +56,7 @@ namespace NumberVowelGameReloaded
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PutNumletterInLabel();
+            _controller.VeranderLabel();
             Console.WriteLine("---RUN COMPLETE---");
         }
 

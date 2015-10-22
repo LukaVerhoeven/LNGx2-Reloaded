@@ -19,7 +19,7 @@ namespace NumberVowelGameReloaded
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PutNumletterInLabel();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
