@@ -9,6 +9,7 @@ namespace NumberVowelGameReloaded
     public class NumLetterModel
     {
         string nummerletter;
+        string bovenOfOnder;
 
         public string Nummerletter
         {
@@ -19,6 +20,17 @@ namespace NumberVowelGameReloaded
             set
             {
                 nummerletter = value;
+            }
+        }
+        public string BovenOfOnder
+        {
+            get
+            {
+                return bovenOfOnder;
+            }
+            set
+            {
+                bovenOfOnder = value;
             }
         }
 
