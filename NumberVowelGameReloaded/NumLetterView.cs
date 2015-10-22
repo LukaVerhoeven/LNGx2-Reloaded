@@ -29,7 +29,7 @@ namespace NumberVowelGameReloaded
         {
             
             int rndLabel = random.Next(2);
-            label3.Text = rndLabel.ToString();
+            Console.WriteLine("Order: " + rndLabel);
             _controller.GenereerNumLetter();
 
             if (rndLabel == 0)
@@ -53,9 +53,10 @@ namespace NumberVowelGameReloaded
         private void button1_Click(object sender, EventArgs e)
         {
             PutNumletterInLabel();
+            Console.WriteLine("---RUN COMPLETE---");
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void NumLetterView_Load(object sender, EventArgs e)
         {
 
         }
