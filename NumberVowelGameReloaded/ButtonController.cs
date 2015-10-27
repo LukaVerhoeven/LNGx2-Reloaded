@@ -21,5 +21,9 @@ namespace NumberVowelGameReloaded
             
         }
 
+        public Buttons GetView()
+        {
+            return _view;
+        }
     }
 }

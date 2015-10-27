@@ -26,6 +26,11 @@ namespace NumberVowelGameReloaded
             Controls.Add(NLController.GetView());
             NLView.Location = new Point(0, 0);
 
+            ButtonController BController = new ButtonController(NLController);
+            Buttons BView = BController.GetView();
+            Controls.Add(BController.GetView());
+            BView.Location = new Point(0, 200);
+
         }
     }
 }
