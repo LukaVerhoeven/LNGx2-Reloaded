@@ -9,12 +9,10 @@ namespace NumberVowelGameReloaded
     public class ButtonController
     {
         NumLetterController _NumLetterController;
-        Buttons _view;
 
         public ButtonController(NumLetterController NumLetterController)
         {
             _NumLetterController = NumLetterController;
-            _view = new Buttons();
 
         }
 
