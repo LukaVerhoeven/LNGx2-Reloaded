@@ -19,7 +19,8 @@ namespace NumberVowelGameReloaded
         {
             _model = new NumLetterModel();
             _view = new NumLetterView(this, _model);
-            
+            VeranderLabel();
+
         }
         public void VeranderLabel()
         {

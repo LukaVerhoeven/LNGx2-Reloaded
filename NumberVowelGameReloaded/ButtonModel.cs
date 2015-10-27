@@ -8,9 +8,10 @@ namespace NumberVowelGameReloaded
 {
     public class ButtonModel
     {
-        string CheckIfCorrect;
+        bool CheckIfCorrect;
+        bool YesOrNo;
 
-        public string checkIfCorrect
+        public bool checkIfCorrect
         {
             get
             {
@@ -21,5 +22,16 @@ namespace NumberVowelGameReloaded
                 CheckIfCorrect = value;
             }
         }
-    }
+        public bool yesOrNo
+        {
+            get
+            {
+                return YesOrNo;
+            }
+            set
+            {
+                YesOrNo = value;
+            }
+        }
+        }
 }

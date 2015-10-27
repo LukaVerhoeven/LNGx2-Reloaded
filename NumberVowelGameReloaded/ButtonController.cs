@@ -30,26 +30,54 @@ namespace NumberVowelGameReloaded
 
         public void checkAnswer(string nummerLetter, string BovenOfOnder)
         {
+            _model.checkIfCorrect = false;
 
+                Console.WriteLine(_NumLetterModel.Nummerletter[0]);
+                Console.WriteLine(_NumLetterModel.Nummerletter[1]);
           
 
             if (_NumLetterModel.BovenOfOnder == "boven")
             {
+                
+               
 
                 for (int i = 0; i < evennumber.Length; i++)
                 {
-                    if (_NumLetterModel.Nummerletter[0] == evennumber[i] || _NumLetterModel.Nummerletter[0] == evennumber[i])
+                    
+
+                    if (_NumLetterModel.Nummerletter[0] == evennumber[i] || _NumLetterModel.Nummerletter[1] == evennumber[i])
                     {
-                        _model.checkIfCorrect = "correct";
-                        _scoreTimerController.answer("correct");
-                        Console.WriteLine("correct");
+                        if(_model.yesOrNo)
+                        {
+                            _model.checkIfCorrect = true;
+                          
+                            Console.WriteLine("correct");
+                            break;
+                        }
+                        else
+                        {
+                            _model.checkIfCorrect = false;
+                           
+                            //Console.WriteLine("wrong");
+                        }
+
 
                     }
                     else
                     {
-                        _model.checkIfCorrect = "wrong";
-                        _scoreTimerController.answer("wrong");
-                        Console.WriteLine("wrong");
+                        if (!_model.yesOrNo)
+                        {
+                            _model.checkIfCorrect = true;
+                            //Console.WriteLine("correct");
+                            break;
+                        }
+                        else
+                        {
+                            _model.checkIfCorrect = false;
+                          
+                            //Console.WriteLine("wrong");
+                           
+                        }
                     }
                 
 
@@ -63,20 +91,51 @@ namespace NumberVowelGameReloaded
                 {
                     if (_NumLetterModel.Nummerletter[0] == klinkers[i] || _NumLetterModel.Nummerletter[1] == klinkers[i])
                     {
-                        _model.checkIfCorrect = "correct";
-                        _scoreTimerController.answer("correct");
-                        Console.WriteLine("correct");
+                        if (_model.yesOrNo == true)
+                        {
+                            _model.checkIfCorrect = true;
+                           
+                            Console.WriteLine("correct");
+                            break;
+                        }
+                        else
+                        {
+                            _model.checkIfCorrect = false;
+                         
+                            //Console.WriteLine("wrong");
+                        }
                     }
                     else
                     {
-                        _model.checkIfCorrect = "wrong";
-                        _scoreTimerController.answer("wrong");
-                        Console.WriteLine("wrong");
+                        if (_model.yesOrNo == false)
+                        {
+                            _model.checkIfCorrect = true;
+                            break;
+                            //Console.WriteLine("correct");
+                        }
+                        else
+                        {
+                            _model.checkIfCorrect = false;                       
+                            Console.WriteLine("wrong");
+                          
+                        }
                     }
 
                 }
 
             }
+
+            Console.WriteLine(_model.checkIfCorrect);
+            if (_model.checkIfCorrect)
+            {
+                _scoreTimerController.answer("correct");
+            }
+            else
+            {
+                _scoreTimerController.answer("wrong");
+            }
+
+
         }       
 
 
