@@ -8,6 +8,18 @@ namespace NumberVowelGameReloaded
 {
     public class ButtonModel
     {
-  
+        string CheckIfCorrect;
+
+        public string checkIfCorrect
+        {
+            get
+            {
+                return CheckIfCorrect;
+            }
+            set
+            {
+                CheckIfCorrect = value;
+            }
+        }
     }
 }

@@ -26,7 +26,12 @@ namespace NumberVowelGameReloaded
             Controls.Add(NLController.GetView());
             NLView.Location = new Point(0, 0);
 
-            ButtonController BController = new ButtonController(NLController);
+            ScoreTimerController STController = new ScoreTimerController();
+            scoreTimerView STView = STController.GetView();
+            Controls.Add(STController.GetView());
+            STView.Location = new Point(150, 0);
+
+            ButtonController BController = new ButtonController(NLController, STController);
             Buttons BView = BController.GetView();
             Controls.Add(BController.GetView());
             BView.Location = new Point(0, 200);
