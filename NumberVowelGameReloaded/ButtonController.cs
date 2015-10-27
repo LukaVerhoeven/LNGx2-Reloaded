@@ -30,22 +30,32 @@ namespace NumberVowelGameReloaded
 
             if (_NumLetterModel.BovenOfOnder == "boven")
             {
+          
+                for (int i = 0; i < evennumber.Length; i++)
+                {
+                if (_NumLetterModel.Nummerletter[0] == evennumber[i] || _NumLetterModel.Nummerletter[0] == evennumber[i])
+                {
+
+                }
+
+                }
+            }
+
+            if (_NumLetterModel.BovenOfOnder == "onder")
+            {
                 for (int i = 0; i < klinkers.Length; i++)
                 {
-              
                     if (_NumLetterModel.Nummerletter[0] == klinkers[i] || _NumLetterModel.Nummerletter[1] == klinkers[i])                      )
                     {
 
                     }
-                   
-                }
-                for (int i = 0; i < length; i++)
-                {
 
-                }
-            }
-            
-        }
+             }
+
+         }        
+
+
+    
 
         public Buttons GetView()
         {
