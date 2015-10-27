@@ -19,12 +19,14 @@ namespace NumberVowelGameReloaded
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+           // _controller.VeranderLabel();
+            Console.WriteLine("---RUN COMPLETE---");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+           // _controller.VeranderLabel();
+            Console.WriteLine("---RUN COMPLETE---");
         }
     }
 }

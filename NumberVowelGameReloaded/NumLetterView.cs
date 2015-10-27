@@ -54,11 +54,7 @@ namespace NumberVowelGameReloaded
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            _controller.VeranderLabel();
-            Console.WriteLine("---RUN COMPLETE---");
-        }
+   
 
         private void NumLetterView_Load(object sender, EventArgs e)
         {
