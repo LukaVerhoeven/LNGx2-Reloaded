@@ -24,6 +24,7 @@ namespace NumberVowelGameReloaded
         private void button1_Click(object sender, EventArgs e)
         {
             _NumLetterController.VeranderLabel();
+
             Console.WriteLine("---RUN COMPLETE---");
         }
 

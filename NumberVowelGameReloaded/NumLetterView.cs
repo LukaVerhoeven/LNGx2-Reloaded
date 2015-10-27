@@ -35,15 +35,13 @@ namespace NumberVowelGameReloaded
             if (rndLabel == 0)
             {
                 label2.Text = "";
-                label1.Text = _model.Nummerletter;
-                _model.BovenOfOnder = "";
+                label1.Text = _model.Nummerletter;               
                 _model.BovenOfOnder = "boven";
             }
             else if(rndLabel == 1)
             {
                 label1.Text = "";
-                label2.Text = _model.Nummerletter;
-                _model.BovenOfOnder = "";
+                label2.Text = _model.Nummerletter;                
                 _model.BovenOfOnder = "onder";
             }
             else

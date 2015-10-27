@@ -8,5 +8,6 @@ namespace NumberVowelGameReloaded
 {
     public class ButtonModel
     {
+  
     }
 }

@@ -10,16 +10,25 @@ namespace NumberVowelGameReloaded
     {
         //NumLetterController _NumLetterController;
         Buttons _view;
+        NumLetterModel _NumLetterModel;
+
+
 
         public ButtonController(NumLetterController NumLetterController)
         {
             //_NumLetterController = NumLetterController;
             _view = new Buttons(NumLetterController);
+            _NumLetterModel = NumLetterController._model;
+
 
         }
 
         public void checkAnswer(string nummerLetter,string BovenOfOnder)
         {
+            if (_NumLetterModel.BovenOfOnder == "Boven")
+            {
+
+            }
             
         }
 
