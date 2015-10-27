@@ -39,6 +39,7 @@ namespace NumberVowelGameReloaded
                 int rndLtr = rnd.Next(26);
                 string result = rndNbr.ToString() + Alfabet[rndLtr];                
                 _model.Nummerletter = result;
+               
 
             }
             else if(switchnbrlet == 1)
