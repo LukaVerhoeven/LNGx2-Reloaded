@@ -12,8 +12,12 @@ namespace NumberVowelGameReloaded
 {
     public partial class Buttons : UserControl
     {
-        public Buttons()
+
+        NumLetterController _NumLetterController;
+
+        public Buttons(NumLetterController NumLetterController)
         {
+            _NumLetterController = NumLetterController;
             InitializeComponent();
         }
 
