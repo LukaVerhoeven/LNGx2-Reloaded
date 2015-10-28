@@ -10,7 +10,19 @@ namespace NumberVowelGameReloaded
     {
         bool CheckIfCorrect;
         bool YesOrNo;
+        int correctstreak;
 
+        public int correctStreak
+        {
+            get
+            {
+                return correctstreak;
+            }
+            set
+            {
+                correctstreak = value;
+            }
+        }
         public bool checkIfCorrect
         {
             get
