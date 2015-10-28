@@ -15,15 +15,17 @@ namespace NumberVowelGameReloaded
         string klinkers = "AEIOU";
         string evennumber = "2468";
         AnswerController _scoreTimerController;
-        
+        PointsAndTimerController _PointsAndTimerController;
 
-        public ButtonController(NumLetterController NumLetterController, AnswerController ScoreTimerController)
+
+        public ButtonController(NumLetterController NumLetterController, AnswerController ScoreTimerController, PointsAndTimerController pointsAndTimerController)
         {
             //_NumLetterController = NumLetterController;
             _model = new ButtonModel();           
             _NumLetterModel = NumLetterController._model;
             _view = new Buttons(NumLetterController, this, _NumLetterModel);
             _scoreTimerController = ScoreTimerController;
+            _PointsAndTimerController = pointsAndTimerController;
 
 
         }
