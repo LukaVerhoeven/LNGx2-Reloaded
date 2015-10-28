@@ -20,12 +20,12 @@ namespace NumberVowelGameReloaded
 
         public ButtonController(NumLetterController NumLetterController, AnswerController ScoreTimerController, PointsAndTimerController pointsAndTimerController)
         {
-            //_NumLetterController = NumLetterController;
+            _PointsAndTimerController = pointsAndTimerController;
             _model = new ButtonModel();           
             _NumLetterModel = NumLetterController._model;
-            _view = new Buttons(NumLetterController, this, _NumLetterModel);
+            _view = new Buttons(NumLetterController, this, _NumLetterModel , _PointsAndTimerController);
             _scoreTimerController = ScoreTimerController;
-            _PointsAndTimerController = pointsAndTimerController;
+            
 
 
         }

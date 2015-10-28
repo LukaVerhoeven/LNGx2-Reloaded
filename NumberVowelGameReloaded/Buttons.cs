@@ -17,7 +17,7 @@ namespace NumberVowelGameReloaded
         ButtonController _buttonController;
         NumLetterModel _numLetterModel;
 
-        public Buttons(NumLetterController NumLetterController, ButtonController ButtonController, NumLetterModel NumLetterModel)
+        public Buttons(NumLetterController NumLetterController, ButtonController ButtonController, NumLetterModel NumLetterModel , PointsAndTimerController _PointsAndTimerController)
         {
             _NumLetterController = NumLetterController;
             _buttonController = ButtonController;
@@ -27,12 +27,10 @@ namespace NumberVowelGameReloaded
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             _buttonController._model.yesOrNo = true;
             _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
             _NumLetterController.VeranderLabel();
-
-
-
             Console.WriteLine("---RUN COMPLETE---");
         }
 
