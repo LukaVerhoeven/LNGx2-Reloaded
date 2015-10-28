@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -61,10 +63,14 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "label3";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(174, 14);
+            this.label4.Location = new System.Drawing.Point(172, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 3;
@@ -80,6 +86,7 @@
             this.Controls.Add(this.label1);
             this.Name = "PointsAndTimerView";
             this.Size = new System.Drawing.Size(226, 44);
+            this.Load += new System.EventHandler(this.PointsAndTimerView_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,6 +97,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label4;
     }
 }

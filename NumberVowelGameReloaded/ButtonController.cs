@@ -135,6 +135,8 @@ namespace NumberVowelGameReloaded
             {
                 _scoreTimerController.answer("correct");
                 _PointsAndTimerController._model.Score += 1;
+                _PointsAndTimerController.updateScore();
+
             }
             else
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NumberVowelGameReloaded
 {
-    class PointsAndTimerController
+    public class PointsAndTimerController
     {
         public PointsAndTimerModel _model;
         public PointsAndTimerView _view;
@@ -19,7 +19,7 @@ namespace NumberVowelGameReloaded
 
         public void updateScore()
         {
-
+           _view.Score();
         }
         public PointsAndTimerView GetView()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NumberVowelGameReloaded
 {
-    class PointsAndTimerModel
+    public class PointsAndTimerModel
     {
 
         int score;
