@@ -134,8 +134,16 @@ namespace NumberVowelGameReloaded
             if (_model.checkIfCorrect)
             {
                 _scoreTimerController.answer("correct");
-                _PointsAndTimerController._model.Score += 1;
+                _PointsAndTimerController._model.Score += 1;                
                 _PointsAndTimerController.updateScore();
+                _model.correctStreak += 1;
+
+                if (_model.correctStreak >= 10)
+                {
+                    _PointsAndTimerController._model.counter += 8;
+                    _model.correctStreak = 0;
+
+                }
 
             }
             else
