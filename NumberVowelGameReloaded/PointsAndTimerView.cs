@@ -13,7 +13,7 @@ namespace NumberVowelGameReloaded
     public partial class PointsAndTimerView : UserControl
     {
         PointsAndTimerController _controller;
-        int counter = 59;
+        public int counter = 15;
 
         public PointsAndTimerView(PointsAndTimerController Controller)
         {
@@ -29,7 +29,7 @@ namespace NumberVowelGameReloaded
             timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Interval = 1000;
             timer1.Start();
-            label4.Text = "00:" + counter.ToString();
+            label4.Text = counter.ToString();
         }
 
         public void Score()
@@ -48,7 +48,14 @@ namespace NumberVowelGameReloaded
             if (counter == 0)
                 timer1.Stop();
 
-            label4.Text = "00:" + counter.ToString();
+            if (counter < 60)
+            {
+                label4.Text = "00:" + counter.ToString();
+            }
+            else if (counter < 10)
+            {
+                label4.Text = "00:0" + counter.ToString();
+            }
         }
     }
 }
