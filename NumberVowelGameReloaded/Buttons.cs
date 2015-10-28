@@ -29,7 +29,7 @@ namespace NumberVowelGameReloaded
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (_PointsAndTimerController._view.counter > 0)
+            if (_PointsAndTimerController._model.counter > 0)
             {
                 _buttonController._model.yesOrNo = true;
                 _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
@@ -41,7 +41,7 @@ namespace NumberVowelGameReloaded
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (_PointsAndTimerController._view.counter > 0)
+            if (_PointsAndTimerController._model.counter > 0)
             {
                 _buttonController._model.yesOrNo = false;
                 _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
