@@ -16,18 +16,23 @@ namespace NumberVowelGameReloaded
         NumLetterController _NumLetterController;
         ButtonController _buttonController;
         NumLetterModel _numLetterModel;
+        PointsAndTimerController _PointsAndTimerController;
 
-        public Buttons(NumLetterController NumLetterController, ButtonController ButtonController, NumLetterModel NumLetterModel , PointsAndTimerController _PointsAndTimerController)
+        public Buttons(NumLetterController NumLetterController, ButtonController ButtonController, NumLetterModel NumLetterModel , PointsAndTimerController pointsAndTimerController)
         {
             _NumLetterController = NumLetterController;
             _buttonController = ButtonController;
             _numLetterModel = NumLetterModel;
+            _PointsAndTimerController = pointsAndTimerController;
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (_PointsAndTimerController._view.counter == 0)
+            {
+
+            }
             _buttonController._model.yesOrNo = true;
             _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
             _NumLetterController.VeranderLabel();
