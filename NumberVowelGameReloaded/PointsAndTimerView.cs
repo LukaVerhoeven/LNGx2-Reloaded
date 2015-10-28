@@ -22,7 +22,7 @@ namespace NumberVowelGameReloaded
             _controller = Controller;
             InitializeComponent();
             Timer();
-            _model.counter = 15;
+            _model.counter = 60;
     
         }
 
@@ -57,8 +57,12 @@ namespace NumberVowelGameReloaded
         private void timer1_Tick(object sender, EventArgs e)
         {
             _model.counter--;
-            if (_model.counter == 0)
+            if (_model.counter <= 0)
+            {
                 timer1.Stop();
+                _model.counter = 0;
+            }
+                
 
             if (_model.counter < 60 && _model.counter >= 10)
             {

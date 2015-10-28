@@ -20,6 +20,11 @@ namespace NumberVowelGameReloaded
         public void updateScore()
         {
            _view.Score();
+            if (_model.Score>_model.highScore)
+            {
+                _model.highScore = _model.Score;
+                Console.WriteLine(_model.highScore);
+            }
         }
         public PointsAndTimerView GetView()
         {

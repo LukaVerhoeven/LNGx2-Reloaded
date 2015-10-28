@@ -138,7 +138,7 @@ namespace NumberVowelGameReloaded
                 _PointsAndTimerController.updateScore();
                 _model.correctStreak += 1;
 
-                if (_model.correctStreak >= 10)
+                if (_model.correctStreak >= 8)
                 {
                     _PointsAndTimerController._model.counter += 8;
                     _model.correctStreak = 0;
@@ -149,6 +149,7 @@ namespace NumberVowelGameReloaded
             else
             {
                 _scoreTimerController.answer("wrong");
+                _PointsAndTimerController._model.counter -= 4;
             }
 
 
