@@ -11,7 +11,19 @@ namespace NumberVowelGameReloaded
 
         int score;
         int Counter;
+        int highscore;
 
+        public int highScore
+        {
+            get
+            {
+                return highscore;
+            }
+            set
+            {
+                highscore = value;
+            }
+        }
         public int counter
         {
             get
