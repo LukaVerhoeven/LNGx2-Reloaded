@@ -22,7 +22,7 @@ namespace NumberVowelGameReloaded
             _controller = Controller;
             InitializeComponent();
             Timer();
-            _model.counter = 15;
+            _model.counter = 30;
     
         }
 
