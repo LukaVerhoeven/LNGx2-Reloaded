@@ -43,4 +43,4 @@ C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGame
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.scoreTimerView.resources
 C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.PointsAndTimerView.resources
-C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.AnswerCheckView.resources
+C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.AnswerView.resources

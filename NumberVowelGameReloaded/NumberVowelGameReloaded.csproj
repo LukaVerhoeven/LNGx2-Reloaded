@@ -68,6 +68,8 @@
     <Compile Include="NumLetterView.Designer.cs">
       <DependentUpon>NumLetterView.cs</DependentUpon>
     </Compile>
+    <Compile Include="PointsAndTimerController.cs" />
+    <Compile Include="PointsAndTimerModel.cs" />
     <Compile Include="PointsAndTimerView.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -76,13 +78,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AnswerCheckController.cs" />
-    <Compile Include="AnswerCheckModel.cs" />
-    <Compile Include="AnswerCheckView.cs">
+    <Compile Include="AnswerController.cs" />
+    <Compile Include="AnsweModel.cs" />
+    <Compile Include="AnswerView.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AnswerCheckView.Designer.cs">
-      <DependentUpon>AnswerCheckView.cs</DependentUpon>
+    <Compile Include="AnswerView.Designer.cs">
+      <DependentUpon>AnswerView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Buttons.resx">
       <DependentUpon>Buttons.cs</DependentUpon>
@@ -105,8 +107,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AnswerCheckView.resx">
-      <DependentUpon>AnswerCheckView.cs</DependentUpon>
+    <EmbeddedResource Include="AnswerView.resx">
+      <DependentUpon>AnswerView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

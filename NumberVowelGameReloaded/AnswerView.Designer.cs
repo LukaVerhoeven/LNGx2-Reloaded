@@ -1,6 +1,6 @@
 ﻿namespace NumberVowelGameReloaded
 {
-    partial class AnswerCheckView
+    partial class AnswerView
     {
         /// <summary> 
         /// Required designer variable.

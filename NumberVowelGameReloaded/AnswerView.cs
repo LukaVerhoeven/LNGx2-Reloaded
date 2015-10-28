@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NumberVowelGameReloaded
 {
-    public partial class AnswerCheckView : UserControl
+    public partial class AnswerView : UserControl
     {
-        public AnswerCheckView()
+        public AnswerView()
         {
             InitializeComponent();
         }
