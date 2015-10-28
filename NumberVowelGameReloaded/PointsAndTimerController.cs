@@ -8,5 +8,11 @@ namespace NumberVowelGameReloaded
 {
     class PointsAndTimerController
     {
+        public PointsAndTimerModel _model;
+
+        public PointsAndTimerController()
+        {
+            _model = new PointsAndTimerModel();
+        }
     }
 }

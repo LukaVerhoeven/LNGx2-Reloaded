@@ -8,5 +8,19 @@ namespace NumberVowelGameReloaded
 {
     class PointsAndTimerModel
     {
+
+        int score;
+
+        public int Score
+        {
+            get
+            {
+                return score;
+            }
+            set
+            {
+                score = value;
+            }
+        }
     }
 }
