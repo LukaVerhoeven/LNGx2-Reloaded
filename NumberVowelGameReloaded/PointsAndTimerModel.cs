@@ -10,7 +10,19 @@ namespace NumberVowelGameReloaded
     {
 
         int score;
+        int Counter;
 
+        public int counter
+        {
+            get
+            {
+                return Counter;
+            }
+            set
+            {
+                Counter = value;
+            }
+        }
         public int Score
         {
             get
