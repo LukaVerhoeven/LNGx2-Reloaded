@@ -29,14 +29,16 @@ namespace NumberVowelGameReloaded
             timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Interval = 1000;
             timer1.Start();
-            if (counter < 60 && counter >= 10)
+            int minutes = 0;
+            int seconds = counter;
+            if (seconds >= 60)
             {
-                label4.Text = ("00:" + counter.ToString());
+                minutes++;
+                seconds = 0;
+                label4.Text = (minutes + ":" + seconds);
             }
-            else if (counter < 10)
-            {
-                label4.Text = ("00:0" + counter.ToString());
-            }
+            
+            //label4.Text = ("00:" + counter.ToString());
         }
 
         public void Score()
