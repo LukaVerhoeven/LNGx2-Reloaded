@@ -14,10 +14,10 @@ namespace NumberVowelGameReloaded
         NumLetterModel _NumLetterModel;
         string klinkers = "AEIOU";
         string evennumber = "2468";
-        ScoreTimerController _scoreTimerController;
+        AnswerCheckController _scoreTimerController;
         
 
-        public ButtonController(NumLetterController NumLetterController, ScoreTimerController ScoreTimerController)
+        public ButtonController(NumLetterController NumLetterController, AnswerCheckController ScoreTimerController)
         {
             //_NumLetterController = NumLetterController;
             _model = new ButtonModel();           

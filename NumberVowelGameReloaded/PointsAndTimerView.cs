@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace NumberVowelGameReloaded
 {
-    public partial class scoreTimerView : UserControl
+    public partial class PointsAndTimerView : UserControl
     {
-        public scoreTimerView()
+        public PointsAndTimerView()
         {
             InitializeComponent();
-        }
-
-        public void changetext(string Answer)
-        {
-            label1.Text = Answer;
-
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

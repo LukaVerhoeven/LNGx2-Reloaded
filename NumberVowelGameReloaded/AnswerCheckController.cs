@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace NumberVowelGameReloaded
 {
-    public class ScoreTimerController
+    public class AnswerCheckController
     {
 
-        scoreTimerView _view;
+        AnswerCheckView _view;
 
-        public ScoreTimerController()
+        public AnswerCheckController()
         {
 
-            _view = new scoreTimerView();
+            _view = new AnswerCheckView();
 
         }
         public void answer(string Answer)
@@ -23,7 +23,7 @@ namespace NumberVowelGameReloaded
         }
 
 
-        public scoreTimerView GetView()
+        public AnswerCheckView GetView()
         {
             return _view;
         }

@@ -68,15 +68,21 @@
     <Compile Include="NumLetterView.Designer.cs">
       <DependentUpon>NumLetterView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScoreTimerController.cs" />
-    <Compile Include="ScoreTimerModel.cs" />
-    <Compile Include="scoreTimerView.cs">
+    <Compile Include="PointsAndTimerView.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="scoreTimerView.Designer.cs">
-      <DependentUpon>scoreTimerView.cs</DependentUpon>
+    <Compile Include="PointsAndTimerView.Designer.cs">
+      <DependentUpon>PointsAndTimerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AnswerCheckController.cs" />
+    <Compile Include="AnswerCheckModel.cs" />
+    <Compile Include="AnswerCheckView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnswerCheckView.Designer.cs">
+      <DependentUpon>AnswerCheckView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Buttons.resx">
       <DependentUpon>Buttons.cs</DependentUpon>
@@ -87,6 +93,9 @@
     <EmbeddedResource Include="NumLetterView.resx">
       <DependentUpon>NumLetterView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PointsAndTimerView.resx">
+      <DependentUpon>PointsAndTimerView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,8 +105,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="scoreTimerView.resx">
-      <DependentUpon>scoreTimerView.cs</DependentUpon>
+    <EmbeddedResource Include="AnswerCheckView.resx">
+      <DependentUpon>AnswerCheckView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

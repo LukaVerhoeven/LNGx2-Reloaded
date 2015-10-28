@@ -19,8 +19,8 @@ namespace NumberVowelGameReloaded
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ScoreTimerController STController = new ScoreTimerController();
-            scoreTimerView STView = STController.GetView();
+            AnswerCheckController STController = new AnswerCheckController();
+            AnswerCheckView STView = STController.GetView();
             Controls.Add(STController.GetView());
             STView.Location = new Point(45, 105);
 
