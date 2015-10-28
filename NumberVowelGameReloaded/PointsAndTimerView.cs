@@ -12,9 +12,16 @@ namespace NumberVowelGameReloaded
 {
     public partial class PointsAndTimerView : UserControl
     {
-        public PointsAndTimerView()
+        PointsAndTimerController _controller;
+        public PointsAndTimerView(PointsAndTimerController Controller)
         {
+            _controller = Controller;
             InitializeComponent();
+        }
+
+        public void Score()
+        {
+            label3.Text = _controller._model.Score.ToString();
         }
     }
 }

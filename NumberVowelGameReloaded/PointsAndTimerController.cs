@@ -14,9 +14,13 @@ namespace NumberVowelGameReloaded
         public PointsAndTimerController()
         {
             _model = new PointsAndTimerModel();
-            _view = new PointsAndTimerView();
+            _view = new PointsAndTimerView(this);
         }
 
+        public void updateScore()
+        {
+
+        }
         public PointsAndTimerView GetView()
         {
             return _view;

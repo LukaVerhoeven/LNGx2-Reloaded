@@ -134,6 +134,7 @@ namespace NumberVowelGameReloaded
             if (_model.checkIfCorrect)
             {
                 _scoreTimerController.answer("correct");
+                _PointsAndTimerController._model.Score += 1;
             }
             else
             {
