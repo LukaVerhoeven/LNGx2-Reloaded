@@ -34,12 +34,12 @@ namespace NumberVowelGameReloaded
             timer1.Start();
             int minutes = 0;
             int seconds = _model.counter;
-            if (seconds >= 60)
-            {
-                minutes++;
-                seconds = 0;
-                label4.Text = (minutes + ":" + seconds);
-            }
+            //if (seconds >= 60)
+            //{
+            //    minutes++;
+            //    seconds = 0;
+            //    label4.Text = (minutes + ":" + seconds);
+            //}
             
             //label4.Text = ("00:" + counter.ToString());
         }
@@ -57,17 +57,17 @@ namespace NumberVowelGameReloaded
         private void timer1_Tick(object sender, EventArgs e)
         {
             _model.counter--;
-            if (_model.counter == 0)
-                timer1.Stop();
+            //if (_model.counter == 0)
+            //    timer1.Stop();
 
-            if (_model.counter < 60 && _model.counter >= 10)
-            {
-                label4.Text = ("00:" + _model.counter.ToString());
-            }
-            else if (_model.counter < 10)
-            {
-                label4.Text = ("00:0" + _model.counter.ToString());
-            }
+            //if (_model.counter < 60 && _model.counter >= 10)
+            //{
+            //    label4.Text = ("00:" + _model.counter.ToString());
+            //}
+            //else if (_model.counter < 10)
+            //{
+            //    label4.Text = ("00:0" + _model.counter.ToString());
+            //}
         }
     }
 }
