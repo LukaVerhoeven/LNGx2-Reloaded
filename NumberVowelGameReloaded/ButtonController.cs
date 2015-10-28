@@ -31,6 +31,7 @@ namespace NumberVowelGameReloaded
         public void checkAnswer(string nummerLetter, string BovenOfOnder)
         {
             _model.checkIfCorrect = false;
+            bool AltijdFout = false;
 
                 Console.WriteLine(_NumLetterModel.Nummerletter[0]);
                 Console.WriteLine(_NumLetterModel.Nummerletter[1]);
@@ -57,7 +58,8 @@ namespace NumberVowelGameReloaded
                         else
                         {
                             _model.checkIfCorrect = false;
-                           
+                            AltijdFout = true;
+                            break;
                             //Console.WriteLine("wrong");
                         }
 
@@ -65,11 +67,11 @@ namespace NumberVowelGameReloaded
                     }
                     else
                     {
-                        if (!_model.yesOrNo)
+                        if (!_model.yesOrNo && AltijdFout == false)
                         {
                             _model.checkIfCorrect = true;
                             //Console.WriteLine("correct");
-                            break;
+                            
                         }
                         else
                         {
@@ -94,23 +96,24 @@ namespace NumberVowelGameReloaded
                         if (_model.yesOrNo == true)
                         {
                             _model.checkIfCorrect = true;
-                           
-                            Console.WriteLine("correct");
                             break;
+                            Console.WriteLine("correct");
+                            
                         }
                         else
                         {
                             _model.checkIfCorrect = false;
-                         
+                            AltijdFout = true;
+                            break;
                             //Console.WriteLine("wrong");
                         }
                     }
                     else
                     {
-                        if (_model.yesOrNo == false)
+                        if (_model.yesOrNo == false && AltijdFout == false)
                         {
                             _model.checkIfCorrect = true;
-                            break;
+                            
                             //Console.WriteLine("correct");
                         }
                         else
