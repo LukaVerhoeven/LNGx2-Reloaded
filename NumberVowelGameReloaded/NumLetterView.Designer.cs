@@ -51,7 +51,7 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(21, 142);
+            this.label2.Location = new System.Drawing.Point(21, 170);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 109);
@@ -67,7 +67,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NumLetterView";
-            this.Size = new System.Drawing.Size(247, 260);
+            this.Size = new System.Drawing.Size(247, 301);
             this.Load += new System.EventHandler(this.NumLetterView_Load);
             this.ResumeLayout(false);
 

@@ -19,17 +19,15 @@ namespace NumberVowelGameReloaded
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            ScoreTimerController STController = new ScoreTimerController();
+            scoreTimerView STView = STController.GetView();
+            Controls.Add(STController.GetView());
+            STView.Location = new Point(45, 105);
 
             NumLetterController NLController = new NumLetterController();
             NumLetterView NLView = NLController.GetView();
             Controls.Add(NLController.GetView());
             NLView.Location = new Point(0, 0);
-
-            ScoreTimerController STController = new ScoreTimerController();
-            scoreTimerView STView = STController.GetView();
-            Controls.Add(STController.GetView());
-            STView.Location = new Point(150, 0);
 
             ButtonController BController = new ButtonController(NLController, STController);
             Buttons BView = BController.GetView();
