@@ -25,7 +25,7 @@ namespace NumberVowelGameReloaded
             _NumLetterModel = NumLetterController._model;
             _view = new Buttons(NumLetterController, this, _NumLetterModel , _PointsAndTimerController);
             _scoreTimerController = ScoreTimerController;
-            _model.start = false;
+            _PointsAndTimerController._model.start = false;
             
 
 

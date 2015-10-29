@@ -10,9 +10,10 @@ namespace NumberVowelGameReloaded
     public class NumLetterController
     {
         NumLetterView _view;
-        public NumLetterModel _model; 
+        public NumLetterModel _model;
+        string[] Klinkers = { "A", "E", "U", "I" };
     
-        string[] Alfabet = { "A", "B", "C", "D", "E", "F", "G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z" };
+        string[] medeklinkers = { "B", "C", "D","F", "G","H","J","K","L","M","N","P","Q","R","S","T","V","W","X","Y","Z" };
 
 
         public NumLetterController()

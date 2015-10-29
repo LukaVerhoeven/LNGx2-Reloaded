@@ -11,19 +11,7 @@ namespace NumberVowelGameReloaded
         bool CheckIfCorrect;
         bool YesOrNo;
         int correctstreak;
-        bool Start;
 
-        public bool start
-        {
-            get
-            {
-                return Start;
-            }
-            set
-            {
-                Start = value;
-            }
-        }
         public int correctStreak
         {
             get
