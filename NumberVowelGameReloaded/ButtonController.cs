@@ -25,6 +25,7 @@ namespace NumberVowelGameReloaded
             _NumLetterModel = NumLetterController._model;
             _view = new Buttons(NumLetterController, this, _NumLetterModel , _PointsAndTimerController);
             _scoreTimerController = ScoreTimerController;
+            _model.start = false;
             
 
 
@@ -138,9 +139,9 @@ namespace NumberVowelGameReloaded
                 _PointsAndTimerController.updateScore();
                 _model.correctStreak += 1;
 
-                if (_model.correctStreak >= 8)
+                if (_model.correctStreak >= 10)
                 {
-                    _PointsAndTimerController._model.counter += 8;
+                    _PointsAndTimerController._model.counter += 7;
                     _model.correctStreak = 0;
 
                 }
