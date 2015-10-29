@@ -18,11 +18,13 @@ namespace NumberVowelGameReloaded
 
         public PointsAndTimerView(PointsAndTimerController Controller, PointsAndTimerModel model)
         {
+            
             _model = model;
+            _model.counter = 60;
             _controller = Controller;
             InitializeComponent();
             Timer();
-            _model.counter = 60;
+           
     
         }
 
@@ -32,29 +34,49 @@ namespace NumberVowelGameReloaded
             timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Interval = 1000;
             timer1.Start();
-            //int minutes = 0;
-            //int seconds = _model.counter;
-            //if (seconds >= 60)
-            //{
-            //    minutes++;
-            //    seconds = 0;
-            //    label4.Text = (minutes + ":" + seconds);
-            //}
+     
+            int minutes;
+            int seconds;
+            string Minutes;
+            string Seconds;
+            if (_model.counter / 60 != 0)
+            {
+                float i = _model.counter / 60;
+                minutes = (int)Math.Floor(i);
+            }
+            else
+            {
+                minutes = _model.counter / 60;
+            }
 
-            label4.Text = ("00:" + _model.counter.ToString());
-
-            float minutes = Math.Floor(_model.counter / 60);
-            float seconds = Math.Round(_model.counter % 60);
+            if (_model.counter % 60 != 0)
+            {
+                float i = _model.counter % 60;
+                seconds = (int)Math.Floor(i);
+            }
+            else
+            {
+                seconds = _model.counter % 60;
+            }
+           
 
             if (minutes < 10) 
             { 
-                minutes = "0" + minutes.ToString();
-            } 
+                 Minutes = "0" + minutes.ToString();
+            }
+            else
+            {
+                 Minutes = minutes.ToString();
+            }
             if (seconds < 10) 
             {
-                seconds = "0" + Math.Round(seconds).ToString();
-            } 
-            label4.Text = (minutes + ":" + seconds); 
+                 Seconds = "0" + seconds.ToString();
+            }
+            else
+            {
+                Seconds = seconds.ToString();
+            }
+            label4.Text = (Minutes + ":" + Seconds); 
         }
 
         public void Score()
@@ -75,16 +97,58 @@ namespace NumberVowelGameReloaded
                 timer1.Stop();
                 _model.counter = 0;
             }
-                
 
-            if (_model.counter < 60 && _model.counter >= 10)
+            int minutes;
+            int seconds;
+            string Minutes;
+            string Seconds;
+            if (_model.counter / 60 != 0)
             {
-                label4.Text = ("00:" + _model.counter.ToString());
+                float i = _model.counter / 60;
+                minutes = (int)Math.Floor(i);
             }
-            else if (_model.counter < 10)
+            else
             {
-                label4.Text = ("00:0" + _model.counter.ToString());
+                minutes = _model.counter / 60;
             }
+
+            if (_model.counter % 60 != 0)
+            {
+                float i = _model.counter % 60;
+                seconds = (int)Math.Floor(i);
+            }
+            else
+            {
+                seconds = _model.counter % 60;
+            }
+
+
+            if (minutes < 10)
+            {
+                Minutes = "0" + minutes.ToString();
+            }
+            else
+            {
+                Minutes = minutes.ToString();
+            }
+            if (seconds < 10)
+            {
+                Seconds = "0" + seconds.ToString();
+            }
+            else
+            {
+                Seconds = seconds.ToString();
+            }
+            label4.Text = (Minutes + ":" + Seconds); 
+
+            //if (_model.counter < 60 && _model.counter >= 10)
+            //{
+            //    label4.Text = ("00:" + _model.counter.ToString());
+            //}
+            //else if (_model.counter < 10)
+            //{
+            //    label4.Text = ("00:0" + _model.counter.ToString());
+            //}
         }
     }
 }
