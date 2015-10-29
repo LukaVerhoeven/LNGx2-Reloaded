@@ -14,7 +14,7 @@ namespace NumberVowelGameReloaded
     {
         NumLetterController _controller;
         NumLetterModel _model;
-        static int timer = 0;
+        static int timer = new Random().Next(2) + 5;
         Random random = new Random(timer++);
 
         public NumLetterView(NumLetterController Controller , NumLetterModel Model)
@@ -29,7 +29,7 @@ namespace NumberVowelGameReloaded
         {
             
             int rndLabel = random.Next(2);
-            Console.WriteLine("Order: " + rndLabel);
+            Console.WriteLine("Orderview: " + rndLabel);
             _controller.GenereerNumLetter();
 
             if (rndLabel == 0)

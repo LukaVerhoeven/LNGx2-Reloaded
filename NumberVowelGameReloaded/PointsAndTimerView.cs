@@ -64,8 +64,7 @@ namespace NumberVowelGameReloaded
                 {
                     timer1.Stop();
                     _model.counter = 0;
-                    _model.start = false;
-                    _model.counter = 60;
+                    _model.start = false;                   
                 }
 
                 _controller.tick();
