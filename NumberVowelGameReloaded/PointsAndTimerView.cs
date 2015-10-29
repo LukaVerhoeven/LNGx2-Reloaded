@@ -32,16 +32,29 @@ namespace NumberVowelGameReloaded
             timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Interval = 1000;
             timer1.Start();
-            int minutes = 0;
-            int seconds = _model.counter;
-            if (seconds >= 60)
-            {
-                minutes++;
-                seconds = 0;
-                label4.Text = (minutes + ":" + seconds);
-            }
+            //int minutes = 0;
+            //int seconds = _model.counter;
+            //if (seconds >= 60)
+            //{
+            //    minutes++;
+            //    seconds = 0;
+            //    label4.Text = (minutes + ":" + seconds);
+            //}
 
             label4.Text = ("00:" + _model.counter.ToString());
+
+            float minutes = Math.Floor(_model.counter / 60);
+            float seconds = Math.Round(_model.counter % 60);
+
+            if (minutes < 10) 
+            { 
+                minutes = "0" + minutes.ToString();
+            } 
+            if (seconds < 10) 
+            {
+                seconds = "0" + Math.Round(seconds).ToString();
+            } 
+            label4.Text = (minutes + ":" + seconds); 
         }
 
         public void Score()
