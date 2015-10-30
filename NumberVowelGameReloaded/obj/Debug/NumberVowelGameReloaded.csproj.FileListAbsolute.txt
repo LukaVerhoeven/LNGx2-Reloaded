@@ -45,3 +45,16 @@ C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGame
 C:\Users\Luka\Desktop\school\software_engenireeig\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.AnswerView.resources
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.PointsAndTimerView.resources
 \\psf\Home\Documents\School\Year 2\Software Engineering UX\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.AnswerView.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe.config
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.exe
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.pdb
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.exe
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\bin\Debug\NumberVowelGameReloaded.pdb
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Buttons.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Form1.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.NumLetterView.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.PointsAndTimerView.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.Properties.Resources.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.AnswerView.resources
+\\psf\Home\Documents\School\Year 2\Software Engineering UX\alexandar-barratt\opdracht-03-versiebeheer\LNGx2-Reloaded\NumberVowelGameReloaded\obj\Debug\NumberVowelGameReloaded.csproj.GenerateResource.Cache
