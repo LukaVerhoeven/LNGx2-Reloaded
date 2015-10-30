@@ -67,6 +67,39 @@ namespace NumberVowelGameReloaded
                 _PointsAndTimerController._view.Score();
                 _PointsAndTimerController._view.Timer();
             }
+            
+        }
+
+        private void button3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.P)
+            {
+                if (_PointsAndTimerController._model.start == true)
+                {
+                    if (_PointsAndTimerController._model.counter > 0)
+                    {
+                        _buttonController._model.yesOrNo = true;
+                        _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
+                        _NumLetterController.VeranderLabel();
+                        Console.WriteLine("---RUN COMPLETE---");
+                    }
+                }
+                Console.WriteLine("You YES");
+            }
+            else if(e.KeyCode == Keys.O)
+            {
+                if (_PointsAndTimerController._model.start == true)
+                {
+                    if (_PointsAndTimerController._model.counter > 0)
+                    {
+                        _buttonController._model.yesOrNo = false;
+                        _buttonController.checkAnswer(_numLetterModel.Nummerletter, _numLetterModel.BovenOfOnder);
+                        _NumLetterController.VeranderLabel();
+                        Console.WriteLine("---RUN COMPLETE---");
+                    }
+                }
+                Console.WriteLine("You NO");
+            }
         }
     }
 }
