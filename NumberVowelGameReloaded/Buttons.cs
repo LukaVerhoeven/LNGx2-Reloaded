@@ -64,6 +64,8 @@ namespace NumberVowelGameReloaded
                 _PointsAndTimerController._model.start = true;
                 _PointsAndTimerController._model.counter = 60;
                 _PointsAndTimerController._model.Score = 0;
+                _PointsAndTimerController._view.Score();
+                _PointsAndTimerController._view.Timer();
             }
         }
     }

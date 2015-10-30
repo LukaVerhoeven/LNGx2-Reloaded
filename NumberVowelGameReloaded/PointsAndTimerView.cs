@@ -49,6 +49,10 @@ namespace NumberVowelGameReloaded
         {
             label3.Text = _controller._model.Score.ToString();
         }
+        public void updatetime()
+        {
+            label4.Text = (_model.Minutes + ":" + _model.Seconds);
+        }
 
         private void PointsAndTimerView_Load(object sender, EventArgs e)
         {
@@ -66,6 +70,7 @@ namespace NumberVowelGameReloaded
                     _model.counter = 0;
                     _model.start = false;                   
                 }
+
 
                 _controller.tick();
                 label4.Text = (_model.Minutes + ":" + _model.Seconds);
